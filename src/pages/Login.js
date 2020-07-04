@@ -1,8 +1,8 @@
-import React, { useContext, useEffect } from 'react';
+import React from 'react';
 import FacebookLogin from 'react-facebook-login';
 import axios from 'axios';
 import { useHistory } from 'react-router-dom';
-import { UserContext } from '../context/UserContext';
+// import { UserContext } from '../context/UserContext';
 
 const Login = props => {
 
